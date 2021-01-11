@@ -104,7 +104,21 @@ input[type="text"]{
 
     font-size: 1.1em;
     background-color: transparent;
+
 }
+
+.searchbar{
+    position: relative;
+}
+
+svg{
+    position: absolute;
+    width: 25px;
+    opacity: .3;
+    top: 14px;
+    left: 15px;
+}
+
 
 .button-row button{
     margin-top: 30px;
@@ -146,6 +160,7 @@ footer{
     height: 34px;
     align-items: center;
     font-size: .8em;
+
 }
 
 .grid-item a{
@@ -157,7 +172,7 @@ footer{
 }
 
 .grid-item a:hover{
-    border-bottom: solid 1px rgba(0, 0, 0, 0.514);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.397);
 
 }
 
@@ -178,6 +193,8 @@ footer{
 .grid-item-3{
     justify-self: right;
 }
+
+
 
 
 
